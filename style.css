@@ -19,6 +19,12 @@ body {
   padding: 8px 16px 8px;
   color: white;
 }
+.navbar-brand.t-brand:focus {
+  color: white;
+}
+.navbar-brand.t-brand:hover {
+  color: #d73f09;
+}
 
 .t-card {
   margin: 0rem auto 1rem;
@@ -76,6 +82,7 @@ border: none;
   margin-bottom: 0rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-header>h1 {
