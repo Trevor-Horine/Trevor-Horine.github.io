@@ -26,9 +26,6 @@
           <li class="nav-item">
             <a class="nav-link" href="./Trevor Horine resume.pdf">Resume</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
-          </li>
         </ul>
       </div>
     </nav>
@@ -39,8 +36,8 @@
     </div>
     <div class="card-body">
       <img src="me.jpg" alt="Trevor Horine" height="275">
-      <p>I am currently a junior at Oregon State University working towards a degree in Electrical and Computer Engineering with a minor in Computer Science. I like designing systems that solve intersting problems.</p>
-      <p>In my free time I enjoy camping, hiking, and rock climbing. In general I like a good adventure and to explore the outdoors.</p>
+      <p>I am currently a junior at Oregon State University working towards a degree in Electrical and Computer Engineering with a minor in Computer Science. I like designing systems that solve interesting problems.</p>
+      <p>In my free time I enjoy camping, hiking, and rock climbing. In general, I like a good adventure and to explore the outdoors.</p>
     </div>
     <div class="card-footer">
       <a href="./Trevor Horine resume.pdf">
@@ -55,12 +52,62 @@
     </div>
     <div class="card-body">
       <img src="Overviewimage.jpg" alt="Junior Design Final Project" height="250">
-      <p>In the second term of Junior Design we worked on term long group projects. In ten weeks my group designed, built, and tested a SpyderCam style payload positionng device that moves a sensor payload around in an 8.5 by 11 inch area. The sensor payload has a light sensor, RFID sensor and the ability ot attach a writing implment. Our system uses three steper motors to control the length of the strings attached to the paylod to move the payload around.</p>
-      <p>I was responsible for two of the eight blocks that make up the larger system. My blocks were the PCB and the enclosure that it goes in. In order to design the PCB I first designed the electrical system for our project that would be used to control the motors and collect sensor data. Then I did the layout for the board in EAGLE, and sent the boards to the manfactuer. Once I recived our boards I asymboled them. The enclosure was created useing the 3D model of the PCB that EAGLE created. I used Fusion 360 to design the enclosure around the model of the PCB, once printed they were put together and intgrated in to the larger system.</p>
+      <p>In the second term of Junior Design we worked on term long group projects. In ten weeks, my group designed, built, and tested a SpyderCam style payload positioning device that moves a sensor payload around in an 8.5 by 11-inch area. The sensor payload has a light sensor, RFID sensor and the ability to attach a writing implement. Our system uses three stepper motors to control the length of the strings attached to the payload to move the payload around. The system is controlled with a MATLAB GUI that talks to the Arduino using serial communication.</p>
+      <p>I was responsible for two of the eight blocks that make up the larger system. My blocks were the PCB and the enclosure that it goes in. In order to design the PCB, I first designed the electrical system for our project that would be used to control the motors and collect sensor data. Then I did the layout for the board in EAGLE and sent the boards to the manufacturer. Once I received our boards, I assembled them. The enclosure was created using the 3D model of the PCB that EAGLE created. I used Fusion 360 to design the enclosure around the model of the PCB, once printed the enclosure and PCB were put together and integrated into the larger system.</p>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="enclosure.png" alt="Overview">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="enclosurebottom.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="enclosuretop.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="PCBmodel.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="boardtop.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="boardside.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
     <div class="card-footer">
       <a href="./JDFP.html">
-        <button class="button button1">Project Page</button>
+        <button class="button button1">Project Report</button>
+      </a>
+      <a href="./JDFP.html">
+        <button class="button button1">Project Video</button>
+      </a>
+      <a href="https://eecs.oregonstate.edu/project-showcase/projects/?id=7j0RyMtbzP0wjPMK">
+        <button class="button button1">Project Showcase Page</button>
+      </a>
+      <a href="./FPPCBArtifacts.pdf">
+        <button class="button button1">PCB Artifacts</button>
+      </a>
+      <a href="./FPEnclosureArtifacts.pdf">
+        <button class="button button1">Enclosure Artifacts</button>
       </a>
     </div>
   </div>
@@ -71,11 +118,17 @@
     </div>
     <div class="card-body">
       <img src="builtcircuit.jpg" alt="Junior Design Accelerated Project" height="250">
-      <p>In the first term of my Junior Design class we had a group project to build a frequency detector that would identify frequencies between middle C (261.62 Hz) and high C (523.25 Hz). My group designed an amplifier for the signal created by a microphone and used an Arduino to measure the amplified signal. An Arduino NANO was used and the analog to digital converter (ADC) was configured to sample the signal at around 50,000 times a second. Serial comunication was used to pass values to MATLAB where the signal was processed using the built in Fast Fouier Transform (FFT) function in MATLAB. The MATLAB script then pased the highest intensity frequency back to the Arduino to light up indicator lights.</p>
+      <p>In the first term of my Junior Design class we had a group project to build a frequency detector that would identify frequencies between middle C (261.62 Hz) and high C (523.25 Hz). My group designed an amplifier for the signal created by a microphone and used an Arduino to measure the amplified signal. An Arduino NANO was used and the analog to digital converter (ADC) was configured to sample the signal at around 50,000 times a second. Serial communication was used to pass values to MATLAB where the signal was processed using the built in Fast Fourier Transform (FFT) function in MATLAB. The MATLAB script then passed the highest intensity frequency back to the Arduino using serial communication to light up indicator lights.</p>
     </div>
     <div class="card-footer">
-      <a href="./JDAP.html">
-        <button class="button button1">Project Page</button>
+      <a href="./ECE341APReport.pdf">
+        <button class="button button1">Project Report</button>
+      </a>
+      <a href="./ECE341APArtifacts.pdf">
+        <button class="button button1">Project Artifacts</button>
+      </a>
+      <a href="https://media.oregonstate.edu/media/t/1_7a31osva">
+        <button class="button button1">Project video</button>
       </a>
     </div>
   </div>
@@ -86,12 +139,15 @@
     </div>
     <div class="card-body">
       <img src="ECE271FP.jpg" alt="Digital Logic Final Project" height="250">
-      <p>ECE 271 Digital Logic included a final group project that required takeing in multiple inputs in to the FPGA that we used and useing them to drive several different outputs. My part of the project took inputs from an NES controller and output to a DC motor, 7-segment dispays, and an addressable RGB LED. </p>
-      <p>Pressing the right or left sides of the dpad would spin the motor clockwise or counterclockwise. If the A button and the up button on the dpad were pressed at the same time it would incrment the blue value of the LED, pressing A and the down on the dpad would decrement the blue value. If the B button was presses in additon to the up or down on the dpad the red value would be changed, and the start button was used for the green value. The values were also output to the on board seven segment displays in two digit hexadecimal for each color in the order of red green blue from right to left.</p>
+      <p>ECE 271 Digital Logic included a final group project that required taking in multiple inputs into the FPGA that we used and using them to drive several different outputs. My part of the project took inputs from an NES controller and output to a DC motor, 7-segment displays, and an addressable RGB LED.</p>
+      <p>Pressing the right or left sides of the D-pad would spin the motor clockwise or counterclockwise. If the A button and the up button on the D-pad were pressed at the same time it would increment the blue value of the LED, pressing A and the down on the D-pad would decrement the blue value. If the B button was presses in addition to the up or down on the D-pad the red value would be changed, and the start button was used for the green value. The values were also output to the on board seven segment displays in two-digit hexadecimal for each color in the order of red green blue from right to left.</p>
     </div>
     <div class="card-footer">
-      <a href="./DLFP.html">
-        <button class="button button1">Project Page</button>
+      <a href="./ECE271Report.pdf">
+        <button class="button button1">Project report</button>
+      </a>
+      <a href="https://youtu.be/PWSKQtm6lo0">
+        <button class="button button1">Demo Video</button>
       </a>
     </div>
   </div>
